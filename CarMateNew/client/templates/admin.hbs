@@ -1,0 +1,56 @@
+<div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+        {{#each this}}
+            <div class="swiper-slide">
+                <div>
+                    <div class="px-4 sm:px-0">
+                        <h3 class="text-base font-semibold leading-7 text-gray-900">User Information</h3>
+                        <p class="mt-1 max-w-2xl text-sm leading-6 text-gray-500">Personal details and Orders.</p>
+                    </div>
+                    <div class="border-t border-gray-100">
+                        <dl class="divide-y divide-gray-100">
+                            <div class="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+                                <dt class="text-sm font-medium leading-6 text-gray-900">Full name</dt>
+                                <dd class="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">{{name.first}} {{name.last}}</dd>
+                            </div>
+                            <div class="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+                                <dt class="text-sm font-medium leading-6 text-gray-900">Mobile</dt>
+                                <dd class="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
+                                    {{mobile}}
+                                </dd>
+                            </div>
+                            <div class="px-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+                                <dt class="text-sm font-medium leading-6 text-gray-900">Orders</dt>
+                                {{#each orders}}
+                                    <div class="flex flex-col text-left mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0 ">
+                                        {{#each carServices}}
+                                            <dt class="text-sm font-medium leading-6 text-gray-900 ">Service -</dt>
+                                            <dd class=" text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
+                                                {{this.name}} - {{this.cost}} {{this.currency}}
+                                            </dd>
+                                        {{/each}}
+                                    </div>
+                                    <div class="flex text-center mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
+                                        <dt class="text-sm font-medium leading-6 text-gray-900">Status -</dt>
+                                        <dd class="text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
+                                            {{status}}
+                                        </dd>
+                                    </div>
+                                    <div class="flex text-center mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
+                                        <dt class="text-sm font-medium leading-6 text-gray-900">Total -</dt>
+                                        <dd class="text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
+                                            The Total Price for this order is: {{total}}
+                                        </dd>
+                                    </div>
+                                {{/each}}
+                            </div>
+                        </dl>
+                    </div>
+
+                </div>
+
+            </div>
+        {{/each}}
+    </div>
+    <div class="swiper-pagination"></div>
+</div>

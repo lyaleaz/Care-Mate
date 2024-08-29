@@ -1,0 +1,47 @@
+<article id="service-details">
+  <h1 class="details-header c-flex">
+    <button class="btn back-btn" onclick="showAllServices()">
+      <i class="fa-solid fa-arrow-left-long"></i>
+    </button>
+    <span>{{name}}</span>
+  </h1>
+  <section class="service-info">
+    <ul class="service-info-list c-flex">
+      <li class="info-item c-flex">
+        <i class="fa-solid fa-stopwatch"></i>
+        <span>{{details.time}} hours taken</span>
+      </li>
+      <li class="info-item c-flex">
+        <i class="fa-solid fa-award"></i>
+        <span>{{details.warranty}} kms warranty</span>
+      </li>
+      <li class="info-item c-flex">
+        <i class="fa-solid fa-calendar-check"></i>
+        <span>Every {{details.interval}} kms</span>
+      </li>
+    </ul>
+    <h3 class="included-title">What's included?</h3>
+    <ul class="service-info-list c-flex">
+      {{#each servicesIncluded}}
+        <li class="info-item c-flex">
+          <i class="fa-solid fa-circle-check"></i>
+          <span>{{this}}</span>
+        </li>
+      {{/each}}
+    </ul>
+  </section>
+  <section class="service-cost c-flex">
+    <div class="cost c-flex">
+      <i class="fa-solid fa-sack-dollar"></i>
+      cost:
+      <b>
+        {{cost}}
+        {{currency}}
+      </b>
+    </div>
+    <button class="btn add-btn c-flex" onclick="addService('{{idx}}')">
+      <i class="fa-solid fa-clipboard-list"></i>
+      Schedule
+    </button>
+  </section>
+</article>

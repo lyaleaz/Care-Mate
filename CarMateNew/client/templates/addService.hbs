@@ -1,0 +1,95 @@
+<article id="add-service">
+  <form id="add-service-form" onsubmit="return addServiceToCart(event)">
+    <fieldset class="form-fs address-fs">
+      <legend>Pick-up Address:</legend>
+      <div class="input-container c-flex">
+        <i class="fa-solid fa-location-dot"></i>
+        <input
+          type="text"
+          id="address"
+          name="address"
+          placeholder="Add Pick-up Address"
+        />
+      </div>
+    </fieldset>
+    <fieldset class="form-fs">
+      <legend>Date and Time:</legend>
+      <section class="dt-selector" style="margin-bottom: 1rem;">
+        <h3 class="title">Select date</h3>
+        {{#each days}}
+          <div class="input-container d-selector">
+            <input
+              type="radio"
+              id="{{@key}}"
+              name="date-to-pick"
+              value="{{this}}"
+            />
+            <label for="{{@key}}" class="c-flex">
+              <span class="d-selector__day">{{@key}}</span>
+              <span class="d-selector__date">{{this}}</span>
+            </label>
+          </div>
+        {{/each}}
+      </section>
+      <section class="dt-selector">
+        <h3 class="title">Select time</h3>
+        {{#each hours}}
+          <div class="input-container d-selector">
+            <input
+              type="radio"
+              id="{{@key}}"
+              name="time-to-pick"
+              value="{{this}}"
+            />
+            <label
+              for="{{@key}}"
+              class="c-flex"
+              style="justify-content: space-around;"
+            >
+              {{this}}
+            </label>
+          </div>
+        {{/each}}
+      </section>
+    </fieldset>
+    <fieldset class="form-fs payment-fs">
+      <legend>Payment:</legend>
+      <div class="input-container c-flex">
+        <label for="price"> Service price: </label>
+        <input
+          type="text"
+          id="price"
+          name="price"
+          value="{{cost}} {{currency}}"
+          size="7"
+          readonly
+        />
+      </div>
+      <div class="input-container c-flex">
+        <label for="discount">Discount:</label>
+        <input
+          type="text"
+          id="discount"
+          name="discount"
+          value="{{discount}}%"
+          size="7"
+          readonly
+        />
+      </div>
+      <div class="input-container c-flex" style="border-top: 1px dashed black;">
+        <label for="total">Total:</label>
+        <input
+          type="text"
+          id="total"
+          name="total"
+          value="{{multiply (divide discount 100) cost}} {{currency}}"
+          size="7"
+          readonly
+        />
+      </div>
+    </fieldset>
+    <button class="btn btn-block add-btn">
+      ADD TO CART
+    </button>
+  </form>
+</article>

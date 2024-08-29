@@ -1,0 +1,345 @@
+[
+  {
+    "name": "Brake Pads",
+    "cost": 237.7,
+    "image": "https://scdn.autoteiledirekt.de/catalog/categories/150x150/19.png",
+    "categorey": "Brake System",
+    "currency": "₪"
+  },
+  {
+    "name": "Brake Discs",
+    "cost": 383.88,
+    "image": "https://scdn.autoteiledirekt.de/catalog/categories/150x150/18.png",
+    "categorey": "Brake System",
+    "currency": "₪"
+  },
+  {
+    "name": "Brake Fluid",
+    "cost": 274.99,
+    "image": "https://scdn.autoteiledirekt.de/catalog/categories/150x150/289.png",
+    "categorey": "Brake System",
+    "currency": "₪"
+  },
+  {
+    "name": "ABS Sensor",
+    "cost": 273.91,
+    "image": "https://scdn.autoteiledirekt.de/catalog/categories/150x150/99.png",
+    "categorey": "Brake System",
+    "currency": "₪"
+  },
+  {
+    "name": "Handbrake",
+    "cost": 387.23,
+    "image": "https://scdn.autoteiledirekt.de/catalog/categories/150x150/415.png",
+    "categorey": "Brake System",
+    "currency": "₪"
+  },
+  {
+    "name": "Brake Drum",
+    "cost": 322.48,
+    "image": "https://scdn.autoteiledirekt.de/catalog/categories/150x150/21.png",
+    "categorey": "Brake System",
+    "currency": "₪"
+  },
+  {
+    "name": "Brake Fluid Reservoir",
+    "cost": 241.87,
+    "image": "https://scdn.autoteiledirekt.de/catalog/categories/150x150/507.png",
+    "categorey": "Brake System",
+    "currency": "₪"
+  },
+  {
+    "name": "Oil Filter",
+    "cost": 256.28,
+    "image": "https://scdn.autoteiledirekt.de/catalog/categories/150x150/55.png",
+    "categorey": "Filters",
+    "currency": "₪"
+  },
+  {
+    "name": "Air Filter",
+    "cost": 340.16,
+    "image": "https://scdn.autoteiledirekt.de/catalog/categories/150x150/52.png",
+    "categorey": "Filters",
+    "currency": "₪"
+  },
+  {
+    "name": "Fuel Filter",
+    "cost": 257.09,
+    "image": "https://scdn.autoteiledirekt.de/catalog/categories/150x150/53.png",
+    "categorey": "Filters",
+    "currency": "₪"
+  },
+  {
+    "name": "Engine Oil",
+    "cost": 297.07,
+    "image": "https://scdn.autoteiledirekt.de/catalog/categories/150x150/269.png",
+    "categorey": "Engine",
+    "currency": "₪"
+  },
+  {
+    "name": "Engine Mount",
+    "cost": 391.99,
+    "image": "https://scdn.autoteiledirekt.de/catalog/categories/150x150/16.png",
+    "categorey": "Engine",
+    "currency": "₪"
+  },
+  {
+    "name": "Oil Drain Plug",
+    "cost": 374.58,
+    "image": "https://scdn.autoteiledirekt.de/catalog/categories/150x150/300.png",
+    "categorey": "Engine",
+    "currency": "₪"
+  },
+  {
+    "name": "Oil Dipstick",
+    "cost": 237.69,
+    "image": "https://scdn.autoteiledirekt.de/catalog/categories/150x150/158.png",
+    "categorey": "Engine",
+    "currency": "₪"
+  },
+  {
+    "name": "Oil Dipstick",
+    "cost": 368.78,
+    "image": "https://scdn.autoteiledirekt.de/catalog/categories/150x150/158.png",
+    "categorey": "Engine",
+    "currency": "₪"
+  },
+  {
+    "name": "Crankcase Gasket Set",
+    "cost": 287.43,
+    "image": "https://scdn.autoteiledirekt.de/catalog/categories/150x150/420.png",
+    "categorey": "Engine",
+    "currency": "₪"
+  },
+  {
+    "name": "Oil suction pipe",
+    "cost": 375.68,
+    "image": "https://scdn.autoteiledirekt.de/catalog/categories/150x150/554.png",
+    "categorey": "Engine",
+    "currency": "₪"
+  },
+  {
+    "name": "Wing Mirror",
+    "cost": 379.34,
+    "image": "https://scdn.autoteiledirekt.de/catalog/categories/150x150/29.png",
+    "categorey": "Body",
+    "currency": "₪"
+  },
+  {
+    "name": "Rear Lights",
+    "cost": 328.4,
+    "image": "https://scdn.autoteiledirekt.de/catalog/categories/150x150/108.png",
+    "categorey": "Body",
+    "currency": "₪"
+  },
+  {
+    "name": "Headlights",
+    "cost": 335.4,
+    "image": "https://scdn.autoteiledirekt.de/catalog/categories/150x150/27.png",
+    "categorey": "Body",
+    "currency": "₪"
+  },
+  {
+    "name": "Side Indicators",
+    "cost": 287.52,
+    "image": "https://scdn.autoteiledirekt.de/catalog/categories/150x150/106.png",
+    "categorey": "Body",
+    "currency": "₪"
+  },
+  {
+    "name": "Bumper",
+    "cost": 315.78,
+    "image": "https://scdn.autoteiledirekt.de/catalog/categories/150x150/123.png",
+    "categorey": "Body",
+    "currency": "₪"
+  },
+  {
+    "name": "Wheel Bearing",
+    "cost": 247.13,
+    "image": "https://scdn.autoteiledirekt.de/catalog/categories/150x150/202.png",
+    "categorey": "Suspension",
+    "currency": "₪"
+  },
+  {
+    "name": "Wheel Hub",
+    "cost": 379.38,
+    "image": "https://scdn.autoteiledirekt.de/catalog/categories/150x150/95.png",
+    "categorey": "Suspension",
+    "currency": "₪"
+  },
+  {
+    "name": "Steering Knuckle",
+    "cost": 375.72,
+    "image": "https://scdn.autoteiledirekt.de/catalog/categories/150x150/88.png",
+    "categorey": "Suspension",
+    "currency": "₪"
+  },
+  {
+    "name": "Differential",
+    "cost": 390.49,
+    "image": "https://scdn.autoteiledirekt.de/catalog/categories/150x150/258.png",
+    "categorey": "Suspension",
+    "currency": "₪"
+  },
+  {
+    "name": "Windshield Wipers",
+    "cost": 353.46,
+    "image": "https://scdn.autoteiledirekt.de/catalog/categories/150x150/49.png",
+    "categorey": "Windscreen Cleaning System",
+    "currency": "₪"
+  },
+  {
+    "name": "Windscreen Wiper",
+    "cost": 270.75,
+    "image": "https://scdn.autoteiledirekt.de/catalog/categories/150x150/183.png",
+    "categorey": "Windscreen Cleaning System",
+    "currency": "₪"
+  },
+  {
+    "name": "Windscreen Washer Pump",
+    "cost": 295.92,
+    "image": "https://scdn.autoteiledirekt.de/catalog/categories/150x150/50.png",
+    "categorey": "Windscreen Cleaning System",
+    "currency": "₪"
+  },
+  {
+    "name": "Wiper Motor",
+    "cost": 335.08,
+    "image": "https://scdn.autoteiledirekt.de/catalog/categories/150x150/48.png",
+    "categorey": "Windscreen Cleaning System",
+    "currency": "₪"
+  },
+  {
+    "name": "Windscreen Washer Jets",
+    "cost": 268.54,
+    "image": "https://scdn.autoteiledirekt.de/catalog/categories/150x150/51.png",
+    "categorey": "Windscreen Cleaning System",
+    "currency": "₪"
+  },
+  {
+    "name": "Screenwash",
+    "cost": 336.26,
+    "image": "https://scdn.autoteiledirekt.de/catalog/categories/150x150/603.png",
+    "categorey": "Windscreen Cleaning System",
+    "currency": "₪"
+  },
+  {
+    "name": "Power Steering Pump",
+    "cost": 270.58,
+    "image": "https://scdn.autoteiledirekt.de/catalog/categories/500x500/171.png",
+    "categorey": "Steering",
+    "currency": "₪"
+  },
+  {
+    "name": "Steering Rack",
+    "cost": 235.75,
+    "image": "https://scdn.autoteiledirekt.de/catalog/categories/150x150/169.png",
+    "categorey": "Steering",
+    "currency": "₪"
+  },
+  {
+    "name": "Power Steering Oil",
+    "cost": 238.66,
+    "image": "https://scdn.autoteiledirekt.de/catalog/categories/150x150/444.png",
+    "categorey": "Steering",
+    "currency": "₪"
+  },
+  {
+    "name": "Steering Angel Sensor",
+    "cost": 310.78,
+    "image": "https://scdn.autoteiledirekt.de/catalog/categories/150x150/444.png",
+    "categorey": "Steering",
+    "currency": "₪"
+  },
+  {
+    "name": "Clutch Kit",
+    "cost": 286.19,
+    "image": "https://scdn.autoteiledirekt.de/catalog/categories/150x150/199.png",
+    "categorey": "Clutch",
+    "currency": "₪"
+  },
+  {
+    "name": "Clutch Cable",
+    "cost": 276.12,
+    "image": "https://scdn.autoteiledirekt.de/catalog/categories/150x150/220.png",
+    "categorey": "Clutch",
+    "currency": "₪"
+  },
+  {
+    "name": "Flywheel Bolt",
+    "cost": 318.13,
+    "image": "https://scdn.autoteiledirekt.de/catalog/categories/150x150/634.png",
+    "categorey": "Clutch",
+    "currency": "₪"
+  },
+  {
+    "name": "Alternator",
+    "cost": 346.19,
+    "image": "https://scdn.autoteiledirekt.de/catalog/categories/150x150/42.png",
+    "categorey": "Electric System",
+    "currency": "₪"
+  },
+  {
+    "name": "Battery",
+    "cost": 297.72,
+    "image": "https://scdn.autoteiledirekt.de/catalog/categories/150x150/250.png",
+    "categorey": "Electric System",
+    "currency": "₪"
+  },
+  {
+    "name": "Horn",
+    "cost": 280.24,
+    "image": "https://scdn.autoteiledirekt.de/catalog/categories/150x150/109.png",
+    "categorey": "Electric System",
+    "currency": "₪"
+  },
+  {
+    "name": "Engine Starter",
+    "cost": 270.9,
+    "image": "https://scdn.autoteiledirekt.de/catalog/categories/150x150/39.png",
+    "categorey": "Electric System",
+    "currency": "₪"
+  },
+  {
+    "name": "Fuse",
+    "cost": 283.27,
+    "image": "https://scdn.autoteiledirekt.de/catalog/categories/150x150/594.png",
+    "categorey": "Electric System",
+    "currency": "₪"
+  },
+  {
+    "name": "Door Lock",
+    "cost": 351.1,
+    "image": "https://scdn.autoteiledirekt.de/catalog/categories/150x150/265.png",
+    "categorey": "Doors",
+    "currency": "₪"
+  },
+  {
+    "name": "Door Handle",
+    "cost": 391.01,
+    "image": "https://scdn.autoteiledirekt.de/catalog/categories/150x150/125.png",
+    "categorey": "Doors",
+    "currency": "₪"
+  },
+  {
+    "name": "Central Lock System",
+    "cost": 353.71,
+    "image": "https://scdn.autoteiledirekt.de/catalog/categories/150x150/144.png",
+    "categorey": "Doors",
+    "currency": "₪"
+  },
+  {
+    "name": "Locking Knob",
+    "cost": 336.01,
+    "image": "https://scdn.autoteiledirekt.de/catalog/categories/150x150/538.png",
+    "categorey": "Doors",
+    "currency": "₪"
+  },
+  {
+    "name": "Tyres",
+    "cost": 312.43,
+    "image": "https://cdn.autoteiledirekt.de/uploads/tyres/full/PKW/5452000488411_532442.jpg",
+    "categorey": "Tyres",
+    "currency": "₪"
+  }
+]

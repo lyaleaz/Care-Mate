@@ -1,0 +1,83 @@
+[
+  {
+    "name": "Car Maintenance",
+    "cost": 1250,
+    "currency": "₪",
+    "image": "car-maintenance",
+    "details": { "time": 4, "warranty": 1000, "interval": 5000 },
+    "servicesIncluded": [
+      "Oiling Service",
+      "Brakes & Clutch Service",
+      "Batteries Service",
+      "Tyres & Wheel Service",
+      "Windshield & Lights Service",
+      "AC Service",
+      "Car Wash Service"
+    ]
+  },
+  {
+    "name": "Oiling",
+    "cost": 250,
+    "currency": "₪",
+    "image": "oil-service",
+    "details": { "time": 1, "warranty": 500, "interval": 2500 },
+    "servicesIncluded": ["Engine Oil Replacement", "Oil Filter Replacement"]
+  },
+  {
+    "name": "Brakes & Clutch",
+    "cost": 250,
+    "currency": "₪",
+    "image": "brake-clutch-service",
+    "details": { "time": 1, "warranty": 500, "interval": 2500 },
+    "servicesIncluded": ["Oil Replacement", "Pads Replacement"]
+  },
+  {
+    "name": "Batteries",
+    "cost": 450,
+    "currency": "₪",
+    "image": "battaries-service",
+    "details": { "time": 1, "warranty": 500, "interval": 2500 },
+    "servicesIncluded": [
+      "Battary Replacement",
+      "Battary Charge",
+      "Cables & Fuses Check"
+    ]
+  },
+  {
+    "name": "Tyres & Wheel",
+    "cost": 350,
+    "currency": "₪",
+    "image": "tyres-service",
+    "details": { "time": 1, "warranty": 500, "interval": 2500 },
+    "servicesIncluded": ["Tyres Replacement", "Puncture Repair"]
+  },
+  {
+    "name": "Windshield & Lights",
+    "cost": 450,
+    "currency": "₪",
+    "image": "windshield-lights-service",
+    "details": { "time": 1, "warranty": 500, "interval": 2500 },
+    "servicesIncluded": [
+      "Windshield Replacement",
+      "Wipers Replacement",
+      "Bulbs Replacement",
+      "Cables & Fuses Check"
+    ]
+  },
+  {
+    "name": "AC Service",
+    "cost": 250,
+    "currency": "₪",
+    "image": "ac-service",
+    "details": { "time": 1, "warranty": 500, "interval": 4000 },
+    "servicesIncluded": ["Refrigerant Refill", "AC Replacement"]
+  },
+  {
+    "name": "Car Wash",
+    "cost": 100,
+    "currency": "₪",
+    "image": "wash-service",
+    "details": { "time": 1, "warranty": 0, "interval": 250 },
+    "servicesIncluded": ["Exterior Wash", "Interior Vacuuming"]
+  }
+]

@@ -1,0 +1,18 @@
+<article id="all-services-deck" class="c-flex">
+  <h2 class="title">OUR SERVICES</h2>
+  <ul class="all-services-deck__list">
+    {{#each services}}
+      <li
+        class="service-minicard c-flex"
+        onclick="showServiceDetails('{{@index}}')"
+      >
+        <img
+          src="../../assets/images/{{image}}.svg"
+          alt="{{name}}"
+          class="img"
+        />
+        <span>{{name}}</span>
+      </li>
+    {{/each}}
+  </ul>
+</article>

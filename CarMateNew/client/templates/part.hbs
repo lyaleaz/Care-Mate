@@ -1,0 +1,55 @@
+<article>
+    <div class="PartBack">
+        <button class="btnParts back-btn" onclick="showAllPart()">
+            <i class="fa-solid fa-arrow-left-long"></i>
+            <h1 class="h1TitleParts">Car Parts Market</h1>
+        </button>
+    </div>
+
+    <div class="parts">
+        <div class="header">
+            <div class="search-container">
+                <div class="select-container">
+                    <select id="categoryFilter" onchange="filterByCategory()">
+                        <option value="All Categories">All Categories</option>
+                        <option value="brake system">Brake System</option>
+                        <option value="filters">Filters</option>
+                        <option value="engine">Engine</option>
+                        <option value="body">Body</option>
+                        <option value="suspension">Suspension</option>
+                        <option value="windscreen cleaning system">Windscreen Cleaning System</option>
+                        <option value="steering">Steering</option>
+                        <option value="clutch">Clutch</option>
+                        <option value="electric system">Electric System</option>
+                        <option value="doors">Doors</option>
+                        <option value="tyres">Tyres</option>
+                    </select>
+                </div>
+                <div class="input-container">
+                    <input type="text" id="searchInput" name="search" placeholder="Search.."
+                           oninput="searchByPartName()">
+                </div>
+                <div class="search-icon">
+                    <i class="uil uil-search"></i>
+                </div>
+                <i class="uil uil-shopping-cart-alt shopping-cart-icon" onclick="navigateToCart()"></i>
+            </div>
+        </div>
+
+        <div class="parts-container">
+            {{#each parts}}
+                <div class="part-minicard" data-category="{{category}}">
+                    <div class="part">
+                        <img src="{{image}}" alt="{{name}}">
+                        <h2>{{name}}</h2>
+                        <p>Category: {{categorey}}</p>
+                        <p>Cost: <span class="blue-text">{{cost}}{{currency}}</span></p>
+                        <button class="add-to-cart-button" data-part-index="{{@index}}" onclick="AddToCart()">Add to
+                            Cart
+                        </button>
+                    </div>
+                </div>
+            {{/each}}
+        </div>
+    </div>
+</article>

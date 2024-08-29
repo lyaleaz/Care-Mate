@@ -1,0 +1,26 @@
+[
+  {
+    "name": { "first": "Muaz", "last": "Abdin" },
+    "password": "password",
+    "email": "muaz@mail.com",
+    "mobile": "058-7741171",
+    "address": { "city": "Jerusalem", "street": "Old City st. 3" },
+    "orders": []
+  },
+  {
+    "name": { "first": "Hassan", "last": "Hassonah" },
+    "password": "password",
+    "email": "hassan@mail.com",
+    "mobile": "052-5733179",
+    "address": { "city": "Jaffa", "street": "Beach st. 3" },
+    "orders": []
+  },
+  {
+    "name": { "first": "Raed", "last": "Awwad" },
+    "password": "password",
+    "email": "raed@mail.com",
+    "mobile": "054-2356893",
+    "address": { "city": "Nazareth", "street": "Main st. 3" },
+    "orders": []
+  }
+]

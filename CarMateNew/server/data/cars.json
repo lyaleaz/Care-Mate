@@ -1,0 +1,170 @@
+[
+  {
+    "make": "Toyta",
+    "model": "yaris",
+    "engine": "1.5 L 4-cylinder",
+    "year": 2017,
+    "image": "https://shorturl.at/kGJK4"
+  },
+  {
+    "make": "Toyota",
+    "model": "Camry",
+    "engine": "2.5L Inline-4",
+    "year": 2020,
+    "image": "https://shorturl.at/mnxRY"
+  },
+  {
+    "make": "Honda",
+    "model": "Civic",
+    "engine": "1.8L Inline-4",
+    "year": 2017,
+    "image": "https://shorturl.at/cNUV2"
+  },
+  {
+    "make": "Honda",
+    "model": "Civic",
+    "engine": "1.8L Inline-4",
+    "year": 2017,
+    "image": "https://shorturl.at/cNUV2"
+  },
+  {
+    "make": "Ford",
+    "model": "Focus",
+    "engine": "2.0L Inline-4",
+    "year": 2019,
+    "image": "https://shorturl.at/BDGH6"
+  },
+  {
+    "make": "Ford",
+    "model": "Escape",
+    "engine": "3.0L v6",
+    "year": 2019,
+    "image": "https://shorturl.at/afuM6"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Malibu",
+    "engine": "1.5L Turbocharged Inline-4",
+    "year": 2021,
+    "image": "https://t.ly/jXTEg"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Impala",
+    "engine": "2.5L 4-cylinder",
+    "year": 2015,
+    "image": "https://t.ly/Qy-p_"
+  },
+  {
+    "make": "Nissan",
+    "model": "Altima",
+    "engine": "2.5L Inline-4",
+    "year": 2018,
+    "image": "https://t.ly/cGMZn"
+  },
+  {
+    "make": "Nissan",
+    "model": "GTR",
+    "engine": "3.8-liter V6",
+    "year": 2024,
+    "image": "https://t.ly/qxQry"
+  },
+  {
+    "make": "Hyundai",
+    "model": "Elantra",
+    "engine": "2.0L Inline-4",
+    "year": 2019,
+    "image": "https://t.ly/GdD52"
+  },
+  {
+    "make": "Hyundai",
+    "model": "Santa Cruz",
+    "engine": "281-hp 2.5L Turbocharged",
+    "year": 2018,
+    "image": "http://blogs.rosenhyundai.com/wp-content/uploads/2016/09/Hyundai-Santa-Cruz.png"
+  },
+  {
+    "make": "Kia",
+    "model": "Rio",
+    "engine": "1.6-liter four-cylinder ",
+    "year": 2010,
+    "image": "https://rb.gy/3lcxw9"
+  },
+  {
+    "make": "Kia",
+    "model": "Sportage",
+    "engine": " 2.0 l 4-cylinder",
+    "year": 2018,
+    "image": "https://rb.gy/3lcxw9"
+  },
+  {
+    "make": "Tesla",
+    "model": "Model 3",
+    "engine": "Electric",
+    "year": 2022,
+    "image": "https://rb.gy/hakejs"
+  },
+  {
+    "make": "Tesla",
+    "model": "Model X",
+    "engine": "Electric",
+    "year": 2022,
+    "image": "https://rb.gy/3ztm48"
+  },
+  {
+    "make": "Subaru",
+    "model": "Outback",
+    "engine": "2.4L Turbocharged Boxer-4",
+    "year": 2021,
+    "image": "https://rb.gy/15y5to"
+  },
+  {
+    "make": "Subaru",
+    "model": "Outback",
+    "engine": "2.5 L 4-cylinder",
+    "year": 2023,
+    "image": "https://www.puentehillssubaru.com/blogs/4596/wp-content/uploads/2023/02/2023-subaru-forester-sport.webp"
+  },
+  {
+    "make": "mercedes",
+    "model": "benz e class",
+    "engine": "3.0 l 6-cylinder",
+    "year": 2021,
+    "image": "https://www.motortrend.com/uploads/sites/5/2020/03/2021-Mercedes-Benz-E-Class-01.jpg?fit=around%7C875:492"
+  },
+  {
+    "make": "mercedes",
+    "model": "SUV",
+    "engine": "3.3 L V6",
+    "year": 2021,
+    "image": "https://rb.gy/15y5to"
+  },
+  {
+    "make": "skoda",
+    "model": "octavia",
+    "engine": "1.4 TSI petrol",
+    "year": 2019,
+    "image": "https://www.theaa.ie/wp-content/uploads/2023/06/Skoda_Octavia_Cover_1.jpg"
+  },
+  {
+    "make": "skoda",
+    "model": "fabia",
+    "engine": "1.0-litre three-cylinder",
+    "year": 2020,
+    "image": "https://rb.gy/rhv6or"
+  },
+  {
+    "make": "Audi",
+    "model": "R8",
+    "engine": "5.2 L V10",
+    "year": 2018,
+    "image": "https://rb.gy/a96iro"
+  },
+  {
+    "make": "Audi",
+    "model": "Q5",
+    "engine": "2.0 L 4-cylinder",
+    "year": 2019,
+    "image": "https://rb.gy/gulm7e"
+  }
+]
